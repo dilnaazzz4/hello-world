@@ -1,11 +1,11 @@
 # hello-world
 greeting
-def greet(lang):
-    if lang == 'es':
-        return 'Hola'
-    elif lang == 'fr':
-        return 'Bonjour'
+def greeting(lang):
+    if lang == 'kz':
+        return 'салем'
+    elif lang == 'rus':
+        return 'привет'
     else:
-        return 'Hello'
+        return 'hola'
 
-print(greet('fr'),'Michael')
+print(greeting('fr'),'Michael')
